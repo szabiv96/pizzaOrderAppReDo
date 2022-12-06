@@ -1,0 +1,94 @@
+[
+    {
+        "id": 0,
+        "name": "Prosciutto",
+        "price": 3400,
+        "ingredients": [
+            "paradicsomos alap",
+            "mozzarella",
+            "főtt sonka"
+        ],
+        "image": "/img/pizza1.png",
+        "isAvailable": true
+    },
+    {
+        "id": 1,
+        "name": "Prosciutto Funghi",
+        "price": 3500,
+        "ingredients": [
+            "paradicsomos alap",
+            "mozzarella",
+            "főtt sonka",
+            "gomba"
+        ],
+        "image": "img/pizza2.png",
+        "isAvailable": true
+    },
+    {
+        "id": 2,
+        "name": "Capriciosa",
+        "price": 3300,
+        "ingredients": [
+            "paradicsomos alap",
+            "mozzarella",
+            "főtt sonka",
+            "articsóka"
+        ],
+        "image": "/img/pizza3.png",
+        "isAvailable": true
+    },
+    {
+        "id": 3,
+        "name": "Diavola",
+        "price": 5000,
+        "ingredients": [
+            "paradicsomos alap",
+            "mozzarella",
+            "csípős szalámi"
+        ],
+        "image": "/img/pizza4.png",
+        "isAvailable": true
+    },
+    {
+        "id": 4,
+        "name": "San Daniele",
+        "price": 3400,
+        "ingredients": [
+            "paradicsomos alap",
+            "mozzarella",
+            "crudo sonka",
+            "rukkola"
+        ],
+        "image": "/img/pizza5.png",
+        "isAvailable": true
+    },
+    {
+        "id": 5,
+        "name": "Piedone",
+        "price": 3300,
+        "ingredients": [
+            "paradicsomos alap",
+            "mozzarella",
+            "bacon",
+            "kukorica",
+            "bab",
+            "lila hagyma"
+        ],
+        "image": "/img/pizza6.png",
+        "isAvailable": true
+    },
+    {
+        "id": 6,
+        "name": "Sailor Moon",
+        "price": 3300,
+        "ingredients": [
+            "paradicsomos alap",
+            "mozzarella",
+            "bacon",
+            "spenót",
+            "gorgonzola"
+        ],
+        "image": "/img/pizza7.png",
+        "isAvailable": true
+    }
+]

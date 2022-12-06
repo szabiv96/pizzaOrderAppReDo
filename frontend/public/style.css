@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;800&display=swap");
+* {
+  border: 0;
+}
+
+body {
+  background-color: gainsboro;
+  font-family: "Montserrat", sans-serif;
+}
+
+main {
+  padding: 1.5%;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
+}
+
+.pizzaContainer {
+  width: 48%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  z-index: 1;
+}
+
+.singlePizza {
+  width: 45%;
+  display: inline-block;
+  word-wrap: break-word;
+  background-color: white;
+  padding: 1%;
+  box-shadow: 1px 1px 1px 1px;
+}
+.singlePizza img {
+  width: 100%;
+  margin-bottom: 5%;
+}
+.singlePizza .pizzaDetail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.singlePizza .pizzaDetail h2, .singlePizza .pizzaDetail h3, .singlePizza .pizzaDetail p {
+  margin: 5px;
+}
+.singlePizza .pizzaDetail .add-pizza-button {
+  margin-top: 5%;
+  align-self: flex-end;
+  width: 30%;
+  padding: 2%;
+  font-family: inherit;
+  background-color: transparent;
+  color: rgb(27, 27, 27);
+  border: 2px solid rgb(27, 27, 27);
+  transition: all 0.5s ease-in-out;
+}
+.singlePizza .pizzaDetail .add-pizza-button:hover {
+  background-color: rgba(255, 24, 0, 0.52);
+  transition: all 0.5s ease-in-out;
+  border: 2px solid transparent !important;
+}
+
+.shoppingCart {
+  width: 48%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99;
+  position: relative;
+  height: 100vh;
+}
+.shoppingCart #form {
+  width: 43%;
+  height: 60vh;
+  position: fixed;
+  top: 14%;
+  right: 0%;
+  padding: 2%;
+  border-top-left-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  background-color: rgba(255, 24, 0, 0.52);
+}
+.shoppingCart #form .inputLines {
+  width: 100%;
+  display: grid;
+  gap: 10px;
+  grid-template-rows: 30px 30px 30px 30px;
+  grid-template-columns: 49% 49%;
+}
+.shoppingCart #form input {
+  padding: 1%;
+  font-family: inherit;
+}
+.shoppingCart #form #order {
+  width: 20%;
+  padding: 2%;
+  font-family: inherit;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  transition: all 0.5s ease;
+}
+.shoppingCart #form #order:hover {
+  background-color: gray;
+  border: 2px solid transparent;
+  transition: all 0.5s ease;
+}
+.shoppingCart #form h2 {
+  color: white;
+}
+.shoppingCart #form .decoCont {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0;
+}
+.shoppingCart #form .pizzaOrderDetails {
+  height: 100vh;
+  overflow: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-between;
+  gap: 10px;
+}
+.shoppingCart #form .pizzaOrderDetails .order {
+  border: 1px solid white;
+  width: 180px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-between;
+  gap: 5px;
+}
+.shoppingCart #form .pizzaOrderDetails .order button {
+  background-color: burlywood;
+  border: 0;
+  border-radius: 100%;
+  width: 20px;
+  font-family: inherit;
+  font-weight: 800;
+  color: rgb(255, 71, 71);
+  padding: 5px;
+  font-size: 8px;
+  align-self: flex-end;
+}
+.shoppingCart #form .pizzaOrderDetails .order input {
+  padding: 10px;
+  font-family: inherit;
+}
+.shoppingCart #form .pizzaOrderDetails h4 {
+  margin: 0;
+  color: white;
+}
+.shoppingCart #form .pizzaOrderDetails h5 {
+  margin: 0;
+  color: white;
+}
+.shoppingCart #form .circleShape {
+  background-color: gainsboro;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  z-index: 98;
+}
+.shoppingCart #form .pizzaOrderDetails {
+  height: 50vh;
+}
+
+.visible {
+  right: -1.55% !important;
+}/*# sourceMappingURL=style.css.map */
